@@ -41,6 +41,18 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	<repositories>
+    <repository>
+        <id>jaspersoft-third-party</id>
+        <url>http://jaspersoft.jfrog.io/jaspersoft/third-party-ce-artifacts/</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
